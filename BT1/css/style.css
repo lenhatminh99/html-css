@@ -1,0 +1,50 @@
+.ld-page img{
+    background-color: #8598cc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.ld-page h1{
+    font-weight: normal;
+    font-family: "Segoe UI";
+    font-size: 45px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.ld-page strong{
+    color: #00aeef;
+}
+
+.ld-page p{
+    font-family: "Segoe UI";
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn{
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.btn li{
+    font-family: "Segoe UI";
+    border-radius: 5px;
+    background-color: black;
+    display: inline;
+    padding: 15px 30px;
+    margin: 0 10px;
+}
+
+.btn li:hover{
+    background-color: #498be0;
+}
+
+.btn li a{
+    text-decoration: none;
+    color: white;
+}

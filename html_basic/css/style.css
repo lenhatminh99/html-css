@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+div#layout{
+    border: 1px solid #a3a2a3;
+    margin: 20px auto;
+    width: 900px;
+}
+
+div#header{
+    padding: 10px;
+}
+
+div.hLeft{
+    float: left;
+}
+
+div.hLeft h1{
+    margin-bottom: 20px;
+}
+
+div.hRight{
+    float: right;
+}
+
+div.hRight ul.hButton{
+    margin-bottom: 37px;
+    text-align: right;
+}
+
+div.hRight ul.hButton li{
+    display: inline;
+}
+
+div.hRight ul.hNav{
+    text-align: right;
+}
+
+div.hRight ul.hNav li{
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+
+div.hRight ul.hNav li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+div#gNav{
+    clear: both;
+}
+
+div#gNav ul{
+    background: url("/images/bg_gnav.gif") repeat-x;
+    border: 1px solid #000;
+    height: 22px;
+    padding: 12px 0;
+}
+
+div#gNav ul li{
+    border-right: solid 1px #fff;
+    display: inline;
+    padding: 0 20px;
+}
+
+div#gNav ul li:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+
+div#gNav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#gNav ul li a:hover{
+    color: aqua;
+}
+
+div#pageBody{
+    padding: 20px 10px;
+}
+
+div#content{
+    float: left;
+    width: 620px;
+}
+
+div#content h2{
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+div#content div.newProduct{
+    margin-bottom: 20px;
+}
+
+div.newProduct p:first-child{
+    float: left;
+    width: 241px;
+}
+
+div.newProduct-Info{
+    float: right;
+    width: 350px;
+}
+
+div.newProduct-Info h3{
+    color: #5870e6;
+    margin-bottom: 10px;
+}
+
+div#content ul.thumbList{
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    padding: 10px 25px;
+    margin-bottom: 40px;
+    clear: both;
+}
+
+div#content ul.thumbList li{
+    display: inline;
+    padding-right: 8px;
+}
+
+div#content div.news{
+    padding: 10px 0 40px 10px;
+}
+
+div#content div.news h2{
+    margin-bottom: 20px;
+}
+
+div#content  div.news dd{
+    border-bottom: 1px dotted #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+div#content div.news dd:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div#content div.news dd a{
+    text-decoration: none;
+}
+
+div#content div.news dd a:hover{
+    text-decoration: underline;
+}
+
+div#content div.banner{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+div#sidebar{
+    float: right;
+    width: 240px;
+}
+
+div#footer{
+    clear: both;
+}
+
+div#content div.newProduct{
+    zoom: 1;
+}
+
+div#content div.newProduct:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+div#sidebar h2{
+    font-size: 120%;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 10px;
+}
+
+div#sidebar ul.sbLink{
+    padding: 0 0 30px 10px;
+}
+
+div#sidebar ul.sbLink li{
+    background: url("/images/ico_arrow.gif") no-repeat left center;
+    padding-left: 15px;
+    margin-bottom: 3px;
+}
+
+div#sidebar ul.sbBnr{
+    padding-top: 10px;
+}
+div#sidebar ul.sbBnr li{
+    padding-bottom: 5px;
+}
+
+div#footer{
+    border-top: 1px solid #666666;
+    padding-right: 10px;
+    clear: both;
+}
+
+div#footer div.fLeft{
+    float: left;
+    padding: 10px;
+    width: 340px;
+}
+
+div#footer div.fRight{
+    float: right;
+    width: 530px;
+}
+
+div#footer div.fRight ul{
+    text-align: right;
+    padding-top: 10px;
+}
+
+div#footer div.fRight ul li{
+    display: inline;
+    border-right: 1px solid #333;
+    padding: 0 5px;
+}
+
+div#footer div.fRight ul li a{
+    text-decoration: none;
+}
+
+div#footer div.fRight ul li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+div#footer div.fRight p{
+    text-align: right;
+}
+
+div#footer{
+    zoom: 1;
+}
+
+div#footer:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
