@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body{
+    font-family: Helvetica, 'sans-serif';
+}
+
+.exam20{
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.exam20 h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.exam20 > p{
+    text-align: center;
+    color: #989898;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#exam-form{
+    background: rgba(152, 152, 152, 0.2);
+    padding: 30px;
+}
+
+#exam-form input[type=text]{
+    float: left;
+    padding: 15px 25px;
+    width: 405px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+#exam-form input[type=text]:last-child{
+    float: right;
+}
+
+#exam-form input[type=email],
+#exam-form input[type=number]
+{
+    padding: 15px 25px;
+    width: 405px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+#exam-form input[type=number]{
+    float: right;
+}
+
+#exam-form input[type=email]{
+    float: left;
+}
+
+#country{
+    float: left;
+    padding: 15px 25px;
+    width: 455px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #6c6c6c;
+}
+
+#course{
+    float: right;
+    padding: 15px 25px;
+    width: 455px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #6c6c6c;
+}
+
+#area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#exam-form button{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 3px;
+    border: rgba(0, 0, 0, 0.87);
+    color: white;
+    transition: 0.3s all;
+}
+
+#exam-form button:hover{
+    background: rgba(0, 0, 0, 0.6);
+    border: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+

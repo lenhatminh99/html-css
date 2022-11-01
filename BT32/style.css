@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.exam32{
+    margin: 30px auto;
+    padding: 40px;
+    width: 1140px;
+    height: 550px;
+    background: rgba(155, 155, 155, 0.19);
+}
+
+.exam32 h1{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.exam32 h1:after{
+    content: "";
+    width: 60px;
+    display: block;
+    height: 4px;
+    background: #627afe;
+    text-align: center;
+    position: absolute;
+    left: 47%;
+}
+
+.exam32 .exam-list li{
+    color: #7c7c7c;
+    float: left;
+    line-height: 1.35;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    position: relative;
+    width: 330px;
+}
+
+.exam32 .exam-list li:nth-child(3n){
+    margin-right: 0;
+}
+
+.exam32 .exam-list li .avatar{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.exam32 .exam-list li img{
+    border-radius: 50%;
+    height: 66px;
+    width: 66px;
+}
+
+.exam32 .exam-list li .message{
+    padding-left: 80px;
+}
+
+.exam32 .exam-list li .message .detail{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.exam32 .exam-list li .message .name{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

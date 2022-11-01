@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica,'sans-serif';
+    background: black;
+}
+
+a, i, p{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.exam8{
+    margin: 210px auto;
+    padding: 38px 0;
+    width: 1180px;
+    height: 150px;
+    background: url("../images/bg_analytic.png") no-repeat;
+}
+
+.exam8 ul li:first-child{
+    margin-left: 80px;
+}
+
+.exam8 ul li{
+    display: inline-block;
+    text-align: center;
+    width: 250px;   
+}
+
+.exam8 ul li i{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.number{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.exam8 ul li p:last-child{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0;
+}

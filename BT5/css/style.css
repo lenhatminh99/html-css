@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.8;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.pageBody{
+    margin: 30px auto;
+    width: 1000px;
+}
+
+#img{
+    float: left;
+    width: 300px;
+}
+
+#content{
+    float: right;
+    width: 640px;
+}
+
+#content h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#content p{
+    padding-bottom: 20px;
+}
+
+#content button{
+    font-size: 15px;
+    padding: 8px 20px;
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+#content button:hover{
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+

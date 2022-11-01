@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+section.invite{
+    background-color: rgb(242,242,242);
+    padding: 50px;
+}
+
+section.invite .icon{
+    border: 3px solid #74cdd5;
+    border-radius: 50%;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+
+section.invite .icon i{
+    color: #74cdd5;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+section.invite h1{
+    margin: 30px auto;
+    font-size: 40px;
+    font-family: "Anonymous Pro",sans-serif;
+}
+
+.lorem{
+    font-size: 17px;
+}
+
+#requestForm{
+    margin: 15px auto;
+}
+
+#requestForm input{
+    font-size: 18px;
+    border: 1px solid rgb(242,242,242);
+    padding: 20px;
+    width: 320px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#requestForm button{
+    padding: 20px;
+    border: 1px solid #74cdd5;
+    border-radius: 5px;
+    background: #74cdd5;
+    color: white;
+}
+
+#requestForm button:hover {
+    background: #ee4b1d;
+    border: 1px solid #ee4b1d;
+}
+
+
+
+

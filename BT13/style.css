@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica, 'sans-serif';
+}
+
+
+.exam13{
+    margin: 30px auto;
+    width: 1040px;
+}
+
+.exam13 p{
+    color: #b4b4b4;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.exam13 ul li{
+    float: left;
+    width: 260px;
+    text-align: center;
+
+}
+
+.exam13 ul li a {
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s all;
+}
+
+.exam13 ul li img{
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: 0.3s all;
+}
+
+.exam13 ul li a:visited{
+    color: black;
+}
+
+.exam13 ul li a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

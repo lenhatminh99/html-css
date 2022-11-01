@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.exam30{
+    margin: 30px auto;
+    width: 978px;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.exam30 h3{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.exam30 .exam-list li{
+    display: block;
+    height: 100px;
+    background: rgba(155, 155, 155, 0.12);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.exam30 .exam-list li > p{
+    font-size: 17px;
+}
+
+.actor .actor-left{
+    float: left;
+}
+
+.actor .actor-left p{
+    margin-bottom: 10px;
+}
+
+.actor .actor-left p:first-child{
+    font-size: 18px;
+}
+
+.actor .actor-left p:last-child{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.actor .actor-left em{
+    color: #87b73e;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.actor .actor-right{
+    float: right;
+}
+
+.actor .actor-right i{
+    font-size: 30px;
+    border: 1px solid #9d9d9d;
+    padding: 5px 5px 0 5px;
+}
+
+.exam-list p{
+    clear: both;
+}

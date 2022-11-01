@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.exam31{
+    margin: 30px auto;
+    width: 1140px;
+    text-align: center;
+}
+
+.exam31 h1{
+    font-size: 48px;
+    color: #ffce1b;
+    margin-bottom: 80px;
+}
+
+.exam31 .exam-list li{
+    display: inline-block;
+    width: 490px;
+    height: 250px;
+}
+
+.exam31 .exam-list li:nth-child(odd){
+    margin-right: 30px;
+}
+
+.exam31 .exam-list li img{
+    margin-bottom: 15px;
+}
+
+.exam31 .exam-list li p{
+    font-size: 17px;
+    font-style: italic;
+}
